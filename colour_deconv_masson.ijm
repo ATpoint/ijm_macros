@@ -50,7 +50,7 @@ for (i = 0; i < len_filtered_list; i++) {
 	print("[Processing] " + tif_in);
 	
 	open(dir + "/" + tif_in);
-	run("Colour Deconvolution", "vectors=[Masson Trichrome]");
+	run("Colour Deconvolution", "vectors=[User values] [r1]=0.83121943 [g1]=0.54205793 [b1]=0.12348068 [r2]=0.22908764 [g2]=0.9523519 [b2]=0.20135695 [r3]=0.43692058 [g3]=0.44746158 [b3]=0.7803067");
 	selectImage(tif_in + "-(Colour_1)");
 	saveAs("Tiff", dir + "/" + tif_out);
 	close("*");
