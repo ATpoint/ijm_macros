@@ -12,13 +12,6 @@
 
 dir = getDirectory("Select directory with Masson's Trichrome .tif files for collagen deconvolution!")
 
-if(dir.isDirectory == false) { 
-
-    print("Selected folder is not a directory, did you select a file by accident?");
-	exit();
-
-}
-
 list = getFileList(dir);
 filtered_list = newArray(0);
 
