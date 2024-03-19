@@ -1,6 +1,6 @@
 /*
 
-	\\ DESCRIPTION:
+    \\ DESCRIPTION:
     ImageJ macro for the analysis of IHC images towards macrophage (CD68), neutrophil (Ly6G) and SMC (a-SMA) numbers
     in atherosclerotic plaques. 
     First performs nucleus segmentation with StarDist based on a DAPI channel,
@@ -27,14 +27,14 @@
     --| That's it.
     
     \\ OUTPUT:
-	=> Output per folder:
-	- results_mac_neu_smc.csv with the measurements
-	- rois_mac_neu_smc.csv with the ROIs
+    => Output per folder:
+    - results_mac_neu_smc.csv with the measurements
+    - rois_mac_neu_smc.csv with the ROIs
 	
-	=> Output in the oarent directory:
-	- timestamped *_log.txt with info about which samples were processed or skipped (the latter in case results already exist)
+    => Output in the oarent directory:
+    - timestamped *_log.txt with info about which samples were processed or skipped (the latter in case results already exist)
 	
-	\\ ABOUT:
+    \\ ABOUT:
     Author: Alexander Bender
     Last modified: 19.03.2024
 
