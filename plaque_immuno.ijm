@@ -133,9 +133,9 @@ if(filtered_list_len > 0) {
 			n_roi = RoiManager.size;
 			array_roi = newArray(n_roi);
 			
-			for (i = 0; i < n_roi; i++) {
+			for (q = 0; q < n_roi; q++) {
 				
-				array_roi[i] = i;
+				array_roi[q] = q;
 			      
 			}
 			 
